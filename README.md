@@ -1,6 +1,7 @@
 # Project Starter
 This repository contains the starter code for the **Ensuring Quality Releases** project of the cd1807 Ensuring Quality Releases (Quality Assurance) course taught by Nathan Anderson. 
 
+hola esta es una actualizacion 
 
 ## How to use?
 - Fork this repository to your Github account and clone it locally for further development. 
