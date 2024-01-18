@@ -63,7 +63,7 @@ packer build ./packer-image.json
 ```
 bash configure-tfstate-storage-account.sh
 ```
-![imagen](https://github.com/Fabiana2903/ensuring-repo/assets/149669704/c3d7d70e-371d-45ab-aff3-e039ecce15e8)
+![Alt text](image-2.png)
 
 4. Then, replace the values in the "terraform/main.tf" file with the output obtained from running the "create-tf-storage.sh" script. Update the backend configuration in the "terraform.tfvars" file.
 
@@ -88,7 +88,9 @@ terraform validate
 terraform apply
 ```
 Your results should look somewhat like this
-![image](https://github.com/Fabiana2903/ensuring-repo/assets/149669704/36bcd3c6-acc5-4742-934f-02e4fa6f07f3)
+
+![Alt text](image-3.png)
+
 
 
 ### Pipeline Development:
