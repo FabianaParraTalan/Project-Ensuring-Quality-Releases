@@ -27,6 +27,9 @@ These are the step by step process followed to complete this project:
 ```
 az login 
 ```
+
+![Alt text](image.png)
+
 2. Within this repository, we are utilizing Azure credentials provided by Udacity. Consequently, the Azure resource group "Azuredevops" is employed. Execute the Packer image for the virtual machine.
 
 To begin, update the variables specified in the "packer-image.json" file. Replace the placeholder values with your actual information for:
