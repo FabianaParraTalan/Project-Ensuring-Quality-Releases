@@ -56,9 +56,7 @@ Once this is done, run the following command to create a packer image:
 ```
 packer build ./packer-image.json
 ```
-![imagen](https://github.com/Fabiana2903/ensuring-repo/assets/149669704/7708a68b-db80-47af-aafb-61e3e30fb1e6)
-
-![imagen](https://github.com/Fabiana2903/ensuring-repo/assets/149669704/bbb22a89-1dec-48d6-9dd4-c4f800233b9c)
+![Alt text](image-1.png)
 
 3. Next, configure the storage account and state backend. Initially, run the script named "create-tf-storage.sh" using the following command:
 
