@@ -1,3 +1,4 @@
+
 #!/bin/bash
 RESOURCE_GROUP_NAME="Azuredevops"
 STORAGE_ACCOUNT_NAME="tfstate$RANDOM$RANDOM"
