@@ -64,6 +64,5 @@ module "vm" {
   packer_image         = "/subscriptions/a4b11da3-2642-4ae2-b8e0-ba40545a13d6/resourceGroups/Azuredevops/providers/Microsoft.Compute/images/packer-image"
   vm_size              =  "Standard_B1s"
   resource_type        =  "webapp"
-
   
 }
