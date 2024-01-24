@@ -52,3 +52,18 @@ module "publicip" {
   resource_type    = "publicip"
   resource_group   = "${module.resource_group.resource_group_name}"
 }
+
+module "vm" {
+  source               = "../../modules/vm"
+  location             = "${var.location}"
+  resource_group       = "${module.resource_group.resource_group_name}"
+  application_type     = "${var.application_type}"
+  subnet_id            = "${module.network.subnet_id_test}"
+  vm_admin_username    = "adminuser"
+  public_ip_address_id = "${module.publicip.public_ip_address_id}"
+  packer_image         = "/subscriptions/a4b11da3-2642-4ae2-b8e0-ba40545a13d6/resourceGroups/Azuredevops/providers/Microsoft.Compute/images/packer-image"
+  vm_size              =  "Standard_B1s"
+  resource_type        =  "webapp"
+
+  
+}
